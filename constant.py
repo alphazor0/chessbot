@@ -1,0 +1,1 @@
+TOKEN='le token de votre bot discord'
