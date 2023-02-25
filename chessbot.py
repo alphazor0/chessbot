@@ -307,7 +307,7 @@ async def on_message(message):
                 lightColor="#FFCE9E",
                 flipped=True)     
                 bords = Image.open('img/bordsn.png')
-                bords2 = Image.open('img/bords2.png')
+                bords2 = Image.open('img/bordsn2.png')
                 
                 
                 img=get_concat_h_resize(bords,BI)
@@ -363,7 +363,7 @@ async def on_message(message):
                     lightColor="#FFCE9E",
                     flipped=True)     
                     bords = Image.open('img/bordsn.png')
-                    bords2 = Image.open('img/bords2.png')
+                    bords2 = Image.open('img/bordsn2.png')
                     
 
                 
