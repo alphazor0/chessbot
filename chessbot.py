@@ -268,8 +268,8 @@ async def on_message(message):
             game='rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR'
             board = chess.Board(game)
             A = fenToMatrice(game)
-            bords = Image.open('bords.png')
-            bords2 = Image.open('bords2.png')
+            bords = Image.open('img/bords.png')
+            bords2 = Image.open('img/bords2.png')
             BI= fenToImage(board.board_fen(),squarelength=100,
             pieceSet=loadPiecesFolder("./pieces"),              	
             darkColor="#D18B47",
@@ -306,8 +306,8 @@ async def on_message(message):
                 darkColor="#D18B47",
                 lightColor="#FFCE9E",
                 flipped=True)     
-                bords = Image.open('bordsn.png')
-                bords2 = Image.open('bords2.png')
+                bords = Image.open('img/bordsn.png')
+                bords2 = Image.open('img/bords2.png')
                 
                 
                 img=get_concat_h_resize(bords,BI)
@@ -354,16 +354,16 @@ async def on_message(message):
                     pieceSet=loadPiecesFolder("./pieces"),              	
                     darkColor="#D18B47",
                     lightColor="#FFCE9E")     
-                    bords = Image.open('bords.png')
-                    bords2 = Image.open('bords2.png')
+                    bords = Image.open('img/bords.png')
+                    bords2 = Image.open('img/bords2.png')
                 else:
                     BI= fenToImage(board.board_fen(),squarelength=100,
                     pieceSet=loadPiecesFolder("./pieces"),              	
                     darkColor="#D18B47",
                     lightColor="#FFCE9E",
                     flipped=True)     
-                    bords = Image.open('bordsn.png')
-                    bords2 = Image.open('bords2.png')
+                    bords = Image.open('img/bordsn.png')
+                    bords2 = Image.open('img/bords2.png')
                     
 
                 
